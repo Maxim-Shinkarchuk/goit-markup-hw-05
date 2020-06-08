@@ -23,19 +23,19 @@
           <a class="logo" href="./index.html">Web<span class="logo-header">Studio</span></a>
           <ul class="list">
             <li class="item">
-              <a href="./index.html" class="link">
+              <a href="./index.html" class="nav-link">
                 Студия
               </a>
             </li>
     
             <li class="item">
-              <a href="./portfolio.html" class="link curent">
+              <a href="./portfolio.html" class="nav-link curent">
                 Портфолио
               </a>
             </li>
     
             <li class="item">
-              <a href="" class="link">
+              <a href="" class="nav-link">
                 Контакты
               </a>
             </li>
@@ -103,18 +103,21 @@
 
           <ul class="production list">
             <li class="production item">
-                <a class="portfolio-link" href="">
-                  <img
-                    class="portfolio__image-card"
-                    src="./images/portfolio-projects/img1.jpg"
-                    alt="Технокряк"
-                    width="370"
-                    height="294"
-                  />
+                <div class="product-thumb">
+                  <a class="portfolio-link" href="">
+                    <div class="portfolio-box">
+                      <img class="portfolio__image-card" src="./images/portfolio-projects/img1.jpg" alt="Технокряк" width="370"
+                        height="294" />
+                      <div class="portfolio-overlay">
+                        <p class="overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                          платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                      </div>
+                    </div>
+                </div>
+                  
                   <div class="portfolio__card-content">
                     <h2 class="portfolio-title">Технокряк</h2>
                     <p class="portfolio__name">Веб-сайт</p>
-                    <!--<p class="hide-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>-->
                   </div>
                 </a>
             </li>
@@ -257,26 +260,16 @@
     <footer class="footer">
       <div class="container footer-box">
         <div class="footer__container__logo-adress">
-          <a class="logo" href="./index.html"
-            >Web<span class="logo-footer">Studio</span></a
-          >
+          <a class="logo" href="./index.html">Web<span class="logo-footer">Studio</span></a>
           <address>
             <p class="footer__container__logo-adress__adress">
               г. Киев, пр-т Леси Украинки, 26
             </p>
-            <a
-              class="footer__container__logo-adress__contact"
-              href="mailto:info@example.com"
-              >info@example.com</a
-            >
-            <a
-              class="footer__container__logo-adress__contact"
-              href="tel:+380991111111"
-              >+38 099 111 11 11</a
-            >
+            <a class="footer__container__logo-adress__contact" href="mailto:info@example.com">info@example.com</a>
+            <a class="footer__container__logo-adress__contact" href="tel:+380991111111">+38 099 111 11 11</a>
           </address>
         </div>
-
+    
         <div class="footer__container__social">
           <p class="footer__container__social__slogan">присоединяйтесь</p>
           <ul class="footer__container__social__social-list">
@@ -310,19 +303,17 @@
             </li>
           </ul>
         </div>
-
+    
         <div class="footer__container__subscribe">
           <p class="footer__container__subscribe__join">
             Подпишитесь на рассылку
           </p>
-          <input class="email-input" type="email" />
+          <input class="email-input" type="email">
           <!--Кнопка с подпиской на рассылку-->
-          <button type="button" class="button-second">
-            Подписаться
+          <button type="button" class="button-second">Подписаться
             <svg class="send-icon" width="24" height="24">
               <use href="./images/symbol-defs.svg#icon-icon-send"></use>
-            </svg>
-          </button>
+            </svg></button>
         </div>
       </div>
       <!--копирайт-->
