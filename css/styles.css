@@ -603,14 +603,21 @@ letter-spacing: 0.03em;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     cursor: pointer;
-    transition-property: background-color;
+    transition-property: border, background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 
+
 .clients__logo:hover, .clients__logo:focus, .clients__logo:active{
     border: 1px solid var(--accent-color);
     --color4: #2196F3;
+}
+
+.clients-icon{
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
     /*Портфолио*/
@@ -769,7 +776,10 @@ margin-right: 94px;
     width: 358px;
     height: 50px;
     background-color: #2F303A;
-    color: rgba(255, 255, 255, 0.6);;
+    color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 .button-second{
