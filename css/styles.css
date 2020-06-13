@@ -606,16 +606,11 @@ letter-spacing: 0.03em;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-      
-}
+    }
 
 .clients__logo:hover, .clients__logo:focus, .clients__logo:active{
     border: 1px solid var(--accent-color);
     --color4: #2196F3;
-}
-
-.clients-icon{
-   fill: currentColor;
 }
 
     /*Портфолио*/
